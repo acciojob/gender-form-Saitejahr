@@ -43,7 +43,7 @@ const Form = () => {
       </label>
       {gender === 'Male' && (
         <div>
-          <h2>Select your shirt Size:</h2>
+          <h2>Select your shirt size:</h2>
           <select
             name="shirtSize"
             id="shirtSize"
@@ -60,7 +60,7 @@ const Form = () => {
 
       {gender === 'Female' && (
         <div>
-          <h2>Select your dress Size:</h2>
+          <h2>Select your dress size:</h2>
           <select
             name="dressSize"
             id="dressSize"
